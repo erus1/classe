@@ -1,0 +1,14 @@
+class celular;
+def_inity_(self, marca, ram, camera):
+self.marca = marca
+self.ram = ram
+self.camera = camera
+  pass
+
+celular1  = celular('lg' , '4gb', '20mp')
+celular2 = celular('lg' , '4gb', '20mp')
+celular3 = celular('lg' , '4gb', '20mp')
+
+print(celular1.marca,celular1.ram,celular1.camera)
+print(celular2.marca,celular2.ram,celular1.camera)
+print(celular3.marca,celular3.ram,celular1.camera)
